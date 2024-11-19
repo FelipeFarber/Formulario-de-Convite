@@ -16,7 +16,60 @@
       rel="stylesheet"/>
 </head>
 <body>
-    
+    <div id="app">
+        <aside>
+          <div class="aside-container">
+            <div class="bg-image">
+              <header>
+                <img src="./assets/Logo.svg" alt="ícone de logo festivite" />
+                <h1>Festivite</h1>
+                <p>Crie um convite digital para seu evento.</p>
+              </header>
+            </div>
+          </div>
+        </aside>
+  
+        <main>
+          <div class="main-container">
+            <form>
+              <h1>Crie seu convite</h1>
+              <fieldset class="about-event">
+                <div class="title">
+                  <img src="./assets/icons/calendar.svg" alt="" />
+                  <legend>Sobre o evento</legend>
+                </div>
+  
+                <div class="input-wrapper">
+                  <label for="title">Título</label>
+                  <input
+                    type="text"
+                    name="title"
+                    id="title"
+                    placeholder="Nome do evento"
+                    class="input-dark"
+                  />
+                </div>
+  
+                <div class="flex-1">
+                  <div class="input-wrapper">
+                    <label for="start_at">Início</label>
+                    <input
+                      type="date"
+                      name="start_at"
+                      id="start_at"
+                      class="input-dark"
+                    />
+                  </div>
+                  <div class="input-wrapper">
+                    <label for="ends_at">Fim</label>
+                    <input
+                      type="date"
+                      name="ends_at"
+                      id="ends_at"
+                      class="input-dark"
+                    />
+                  </div>
+                </div>
 
 
 
